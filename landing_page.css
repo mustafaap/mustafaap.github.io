@@ -75,7 +75,7 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .hero-intro{
@@ -141,7 +141,7 @@ main{
 .about{
   display: flex;
   flex-direction: row;
-  padding: 100px 0px;
+  padding: 50px 0px 100px;
 }
 
 .about-image{
@@ -251,6 +251,7 @@ input, textarea{
   .hero{
     display: block;
     text-align: center;
+    padding-bottom: 0px;
   }
   .hero-image{
     padding-top: 30px;
