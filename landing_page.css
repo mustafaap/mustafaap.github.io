@@ -72,10 +72,10 @@ main{
 }
 
 .hero{
-  padding-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .hero-intro{
@@ -141,6 +141,7 @@ main{
 .about{
   display: flex;
   flex-direction: row;
+  padding: 100px 0px;
 }
 
 .about-image{
@@ -166,10 +167,6 @@ main{
 .about-content-info{
   padding-top: 30px;
   font-size: 20px;
-}
-
-.contact{
-  padding-top: 80px;
 }
 
 .form{
@@ -254,7 +251,6 @@ input, textarea{
   .hero{
     display: block;
     text-align: center;
-    padding-bottom: 40px;
   }
   .hero-image{
     padding-top: 30px;
@@ -280,6 +276,7 @@ input, textarea{
   .about{
     flex-direction: column-reverse;
     text-align: center;
+    padding: 40px 0px;
   }
   .about-image{
     max-width: 100%;
@@ -294,9 +291,6 @@ input, textarea{
   .about-content-info{
     font-size: 15px;
     padding: 20px 0px;
-  }
-  .contact{
-    padding-top: 40px;
   }
   .form-heading{
     font-size: 25px;
