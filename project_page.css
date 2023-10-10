@@ -73,9 +73,8 @@ main{
 
 .project-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 50px;
-  row-gap: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 3rem;
 }
 
 .project{
@@ -87,7 +86,7 @@ main{
   width: 100%;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0px 15px 30px -10px var(--purple);
+  box-shadow: 0px 5px 10px 0px var(--purple);
   cursor: pointer;
 }
 
@@ -162,7 +161,7 @@ a{
   color: var(--purple);
 }
 
-@media (max-width: 1250px){
+@media (max-width: 900px){
   main{
     padding: 50px 50px;
   }
@@ -188,10 +187,6 @@ a{
   .title{
     font-size: 48px;
     padding-bottom: 35px;
-  }
-  .project-grid{
-    grid-template-columns: 1fr;
-    row-gap: 65px;
   }
   .project-title{
     font-size: 18px;
