@@ -115,6 +115,7 @@ a{
   align-items: center;
   white-space: nowrap;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
 }
 
 .project hr{
@@ -192,7 +193,7 @@ a{
     font-size: 16px;
   }
   .project-summary{
-    font-size: 10px;
+    font-size: 12px;
   }
   .project-grid{
     grid-template-columns: 1fr;
