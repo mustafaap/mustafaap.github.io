@@ -3,6 +3,8 @@
     --white: #fff;
     --black: #171c28;
 }
+
+html { scroll-behavior: smooth;}
   
 *{
 margin: 0;
@@ -161,6 +163,23 @@ a{
   text-align: center;
   color: var(--purple);
 }
+.scroll-up{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border: none;
+  background-color: var(--purple);
+  color: var(--white);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.scroll-up:hover{
+  opacity: 1;
+}
 
 @media (max-width: 650px){
   main{
@@ -200,5 +219,12 @@ a{
   }
   .project-picture img{
     height: 150px;
+  }
+  .scroll-up{
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 12px;
   }
 }

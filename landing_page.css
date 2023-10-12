@@ -216,6 +216,24 @@ input, textarea{
   border-radius: 15px;
 }
 
+.scroll-up{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border: none;
+  background-color: var(--purple);
+  color: var(--white);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.scroll-up:hover{
+  opacity: 1;
+}
+
 .icons{
   display: flex;
   flex-direction: row;
@@ -302,6 +320,13 @@ input, textarea{
   }
   .form-row{
     padding-bottom: 15px;
+  }
+  .scroll-up{
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 12px;
   }
   .icons{
     height: 50px;
